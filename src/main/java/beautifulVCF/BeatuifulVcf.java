@@ -52,7 +52,7 @@ public class BeatuifulVcf {
                 reader.write("\r\n");
                 reader.write("N;CHARSET=UTF-8;ENCODING=QUOTED-PRINTABLE:" + this.qpEncodeing(bean.getTrueName()) + ";");
                 reader.write("\r\n");
-                if (!bean.getMobile().equals("") && bean.getMobile() != null) {
+                if (bean.getMobile() != null && !bean.getMobile().equals("")) {
                     reader.write("TEL;CELL:" + bean.getMobile() + "");
                     reader.write("\r\n");
                 }
