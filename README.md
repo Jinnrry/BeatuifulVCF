@@ -9,7 +9,7 @@ By maven
 <dependency>
     <groupId>cn.xjiangwei.beatuifulvcf</groupId>
     <artifactId>beatuifulvcf</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
